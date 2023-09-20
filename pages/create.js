@@ -188,15 +188,8 @@ export default function Create() {
                 Certificate Data
               </h3>
               <p className="mt-1 max-w-2xl text-sm text-gray-500">
-                Please enter the data you want to store in the certificate,
-                based on the{" "}
-                <a
-                  className="text-green-600 hover:text-green-800 visited:text-green-600 font-semibold"
-                  href="https://www.imsglobal.org/sites/default/files/Badges/OBv2p0Final/index.html"
-                >
-                  IMS Open Badges 2.0 Standard
-                </a>
-                .
+                Please enter the data you want to store in the certificate!
+                
               </p>
             </div>
             <div>

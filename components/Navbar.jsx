@@ -11,8 +11,7 @@ import Link from "next/link";
 
 const navigation = [
   { name: "Create certificate", href: "/create", current: true },
-  { name: "View certificate", href: "/certificates", current: false },
-  { name: "Example dapp", href: "/dapp", current: false },
+  { name: "Validate certificate", href: "/certificates", current: false },
 ];
 
 export default function Navbar() {
@@ -34,18 +33,12 @@ export default function Navbar() {
                 </Disclosure.Button>
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-                <div className="flex-shrink-0 flex items-center">
-                  <img
-                    className="block lg:hidden h-8 w-auto"
-                    src="../logo-text-white.svg"
-                    alt="Workflow"
-                  />
-                  <img
-                    className="hidden lg:block h-8 w-auto"
-                    src="../logo-text-white.svg"
-                    alt="Workflow"
-                  />
+                <Link href="/">
+                <div className="flex-shrink-0 flex  items-center">
+                  <img src="/logo-light.png" alt="logo" className="h-10 w-10 mr-2" />
+                  <h2 className="text-2xl font-bold text-white">NFTInscribe</h2>
                 </div>
+                </Link>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (

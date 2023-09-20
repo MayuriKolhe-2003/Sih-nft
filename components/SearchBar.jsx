@@ -11,7 +11,7 @@ export default function SearchBar({ updateAddress }) {
             htmlFor="account-number"
             className="block text-sm font-medium text-gray-700"
           >
-            Address
+           Token
           </label>
           <div className="flex">
             <div className="mt-1 relative rounded-md shadow-sm w-full">
