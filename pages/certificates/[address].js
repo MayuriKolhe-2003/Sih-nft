@@ -175,7 +175,7 @@ function Certificate() {
     <div className=" min-h-screen flex flex-col lg:flex-row w-full ">
       <div className="bg-slate-100 lg:w-1/2 flex justify-center items-center lg:h-screen lg:sticky lg:top-0">
         <div className="bg-white max-w-lg shadow-2xl shadow-slate-900/5 rounded-xl mx-4 lg:mx-8 my-16 scale-75">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDKJbeQCIp4erEQcPRVBdBX5Bt5CPNbg7Cgg&usqp=CAU" className="w-100 rounded-xl" />
+          <img src="/cert.jpg" className="w-100 rounded-xl" />
         </div>
       </div>
       <div className=" flex-1 flex justify-center lg:items-center  ">
@@ -185,10 +185,10 @@ function Certificate() {
             <span className="pl-1 pr-2 text-sm font-semibold">NFTInscribe</span>
           </div>
           <h1 className="text-2xl font-bold leading-7 text-slate-900 sm:text-3xl mt-4">
-            Certificate name
+            Certificate for Completion of Blockchain Course
           </h1>
           <p className="text-slate-500 mt-2">
-            description
+            Blockchain Development course offered by Gujrat Government
           </p>
           <div className="mt-5 border-t border-slate-200">
             <dl className="sm:divide-y sm:divide-slate-200">
@@ -204,7 +204,7 @@ function Certificate() {
                       alt="0x8DAf30dEa39Fb89c5E039065B7d1973863b38352"
                     />
                     <span className="pl-1 pr-2 text-sm font-medium">
-                      Mr.Ayush 
+                      Mr.Aditya Mittal
                     </span>
                   </div>
                 </dd>
@@ -315,6 +315,17 @@ function Certificate() {
                       </div>
                     </li>
                   </ul>
+                </dd>
+              </div>
+              <div className="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4">
+                <dt className="text-sm font-medium text-slate-500">Token Id : </dt>
+                <dd className="mt-1 text-sm text-slate-900 sm:mt-0 sm:col-span-2">
+                <div className="bg-slate-100 text-slate-400 rounded-full p-0.5 inline-flex items-center ">
+                <img className="h-5 w-5" src="/logo.png"/>
+                <span className="pl-1 pr-2 text-sm font-medium">
+                bnxc23qw-hyuij786-vfrtygu6-56tr3io4
+                    </span>
+                  </div>
                 </dd>
               </div>
             </dl>

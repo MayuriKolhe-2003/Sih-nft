@@ -10,8 +10,9 @@ import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
 import Link from "next/link";
 
 const navigation = [
-  { name: "Create certificate", href: "/create", current: true },
-  { name: "Validate certificate", href: "/certificates", current: false },
+  { name: "Issue certificate", href: "/issue", current: true },
+  { name: "View certificates", href: "/certificates", current: false },
+  { name: "Verify certificate", href: "/verify", current: false },
 ];
 
 export default function Navbar() {

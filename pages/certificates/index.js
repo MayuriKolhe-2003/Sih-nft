@@ -9,8 +9,8 @@ export default function Certificates() {
   const address = useAddress();
 
   return (
-    <div className="bg-white">
-      <SearchBar updateAddress={setCustomAddress} />
+    <div className="bg-white mt-8">
+      
       <Overview address={customAddress || address} />
     </div>
   );

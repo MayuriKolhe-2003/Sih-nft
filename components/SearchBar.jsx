@@ -1,6 +1,6 @@
 import { SearchIcon } from "@heroicons/react/solid";
 import { useState } from "react";
-
+import Link from "next/link";
 export default function SearchBar({ updateAddress }) {
   const [address, setAddress] = useState(null);
   return (
@@ -29,6 +29,7 @@ export default function SearchBar({ updateAddress }) {
                 placeholder="0x0000...0000"
               />
             </div>
+            <Link href={`/certificates/1234`}>
             <button
               onClick={() => {
                 updateAddress(address);
@@ -37,6 +38,8 @@ export default function SearchBar({ updateAddress }) {
             >
               <SearchIcon className="h-5 w-5 text-gray-400 cursor-pointer" />
             </button>
+              </Link>
+            
           </div>
         </div>
       </div>
